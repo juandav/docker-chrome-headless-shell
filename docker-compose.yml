@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  chrome-headless-shell:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: docker-chrome-headless-shell:dev
+    container_name: chrome-headless-shell
+    ports:
+      - '3000:3000'
+      - '9229:9229'
+    command: npm run start

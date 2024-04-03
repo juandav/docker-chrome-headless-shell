@@ -1,0 +1,11 @@
+{
+  "name": "docker-chrome-headless-test",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node ./chrome-headless-shell-test.js"
+  },
+  "author": "juandav",
+  "dependencies": {
+    "puppeteer": "22.6.2"
+  }
+}
